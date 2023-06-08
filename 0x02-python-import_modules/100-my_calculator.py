@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import sys
-import add, sub, mul, div from calculator_1.py
-
+from calculator_1 import add, sub, mul, div
 if len(sys.argv) != 4:
     print("Usage: ./100-my_calculator.py <a> <operator> <b>")
     sys.exit(1)
