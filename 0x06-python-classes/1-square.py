@@ -4,5 +4,5 @@
 
 class Square:
     def __init__(self, size):
-        """This is the __init__ function that is for self initiation of vars"""
+        """square class and its private attributes"""
         self.__size = size
