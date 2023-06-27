@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """defining the class of square"""
 
+
 class Square:
     """
     This is the class called square with its private attributes
