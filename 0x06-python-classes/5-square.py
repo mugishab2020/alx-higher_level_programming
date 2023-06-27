@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """defintion of the Square class"""
 
+
 class Square:
     """
     Thiss is the ckass Sqaure and its attributes
