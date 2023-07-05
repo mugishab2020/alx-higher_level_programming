@@ -2,7 +2,6 @@
 """ this is the function the prints the sqared size of #"""
 
 
-
 def print_square(size):
     """
     size is the size length of the square
@@ -17,4 +16,3 @@ def print_square(size):
         for j in range(size):
             print("#", end='')
         print()
-
