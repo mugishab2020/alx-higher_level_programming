@@ -1,4 +1,4 @@
-#!/ysr/bin/python3
+#!/usr/bin/python3
 """Now this is the rectangle defined """
 
 
