@@ -2,6 +2,11 @@
 from models.base import Base
 """ this is the child class of the base class and
 is gonna be rectangles
+Private instance attributes, each with its own public getter and setter:
+__width -> width
+__height -> height
+__x -> x
+__y -> y
 """
 
 
