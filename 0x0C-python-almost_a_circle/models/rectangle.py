@@ -1,13 +1,7 @@
 #!/usr/bin/python3
 from models.base import Base
 """ this is the child class of the base class and
-is gonna be rectangles
-Private instance attributes, each with its own public getter and setter:
-__width -> width
-__height -> height
-__x -> x
-__y -> y
-Args:
+     Args:
             width (int): The width of the new Rectangle.
             height (int): The height of the new Rectangle.
             x (int): The x coordinate of the new Rectangle.
