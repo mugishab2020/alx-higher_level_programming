@@ -1,12 +1,7 @@
 #!/usr/bin/node
-const reverselist = [];
 exports.esrever = function (list) {
-  for (let a = list.length; a > 0; a++) {
-    let b = 0;
-    while(b < list.length) {
-        reverselist[b] = list[a];
-        b++;
-    }
+  for (let a = 0; a < list.length; a++) {
+    list[a] = list[list.length - a -1];
   }
-  return reverselist;
+  return list
 };
