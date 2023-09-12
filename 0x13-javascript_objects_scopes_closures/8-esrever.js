@@ -1,12 +1,10 @@
 #!/usr/bin/node
-
+let newlist = '';
 exports.esrever = function (list) {
-  let myVar = '';
-
-  for (let i = 0; i < list.length / 2; i++) {
-    myVar = list[i];
-    list[i] = list[list.length - i - 1];
-    list[list.length - i - 1] = myVar;
+  for (let a = 0; a < list.length / 2; a++) {
+    newlist = list[a];
+    list[a] = list[list.length - a - 1];
+    list[list.length - a - 1] = newlist;
   }
   return list;
 };
