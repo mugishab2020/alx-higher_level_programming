@@ -6,8 +6,7 @@ if __name__ == "__main__":
     import MySQLdb
     from sys import argv
     #opening of database
-    database = MySQLdb.connect(host='localhost', user=argv[1], password=argv[2],
-                            db=argv[3], port=3306)
+    database = MySQLdb.connect(host='localhost', user=argv[1], password=argv[2], db=argv[3], port=3306)
     #declaring the cursor
     curse = database.cursor()
     #executing the Querry
@@ -21,4 +20,5 @@ if __name__ == "__main__":
     curse.close()
     #clossing database
     database.close()
+
 
