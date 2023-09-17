@@ -16,7 +16,7 @@ if __name__ == "__main__":
     # create the cusror && execute the query
     corse = database.cursor()
     corse.execute(
-        """SELECT * FROM states WHERE name LIKE
+            """SELECT * FROM states WHERE name LIKE
         BINARY 'N%'ORDER BY states.id ASC
         """
         )
