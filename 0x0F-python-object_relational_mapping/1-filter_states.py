@@ -2,17 +2,17 @@
 
 if __name__ == "__main__":
     import MySQLdb
-    from sys import argv
-
+    import sys
+    # declaring
+    my_host = 'localhost'
+    users = sys.argv[1]
+    my_password = sys.argv[2]
+    my_db = sys.argv[3]
+    port = 3306
     # connect the db
     database = MySQLdb.connect(
-        host="localhost",
-        port=3306,
-        user=argv[1],
-        password=argv[2],
-        db=argv[3]
-    )
-
+            host=my_host, user=users, passwd=my_password, db=my_db, port=port
+            )
     # create the cusror && execute the query
     corse = database.cursor()
     corse.execute(
