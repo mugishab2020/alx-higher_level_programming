@@ -27,3 +27,5 @@ if __name__ == "__main__":
     # print a tuple
     for data in my_data:
         print(data)
+    corse.close()
+    database.close()
