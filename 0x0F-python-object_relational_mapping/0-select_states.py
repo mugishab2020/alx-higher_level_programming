@@ -8,7 +8,7 @@ if __name__ == "__main__":
     import MySQLdb
     import sys
 
-    #declaring the vars
+    # declaring the vars
     my_host = 'localhost'
     users = sys.argv[1]
     my_password = sys.argv[2]
@@ -36,4 +36,3 @@ if __name__ == "__main__":
 
     # Close all databases
     my_db.close()
-
