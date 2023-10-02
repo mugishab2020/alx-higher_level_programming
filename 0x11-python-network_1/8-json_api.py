@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Using sys and requests module to send a post request"""
 
-from sysy import argv
+from sys import argv
 import requests
 
 
